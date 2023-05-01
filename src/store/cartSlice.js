@@ -21,6 +21,8 @@ export const cartSlice = createSlice({
                 state.items.push({ product: newProduct, quantity: 1 });
             }
         },
-        changeQuantity: (state, action) => {},
+        changeQuantity: (state, action) => {
+
+        },
     }
 })
